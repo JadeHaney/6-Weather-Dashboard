@@ -1,0 +1,118 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+}
+
+.header-footer {
+  background-color: #1686a8;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-footer h1 {
+  margin: 0;
+}
+
+#searchForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#searchForm input[type="text"] {
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+}
+
+#searchForm button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #0d498a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  padding: 20px;
+}
+
+.search-history {
+  width: 200px; /* Set width to 200px */
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  background-color: #f5f5f5;
+  margin-right: 10px;
+  overflow: auto;
+}
+
+.search-history h2 {
+  text-align: center;
+}
+
+.search-history p {
+  margin-bottom: 10px;
+}
+
+.weather-forecast-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.weather-container {
+  height: 450px; /* Set height to 25% */
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  background-color: #f5f5f5;
+  overflow: auto;
+  position: relative;
+}
+
+.weather-container h2 {
+  text-align: center;
+}
+
+.weather-container p {
+  margin-bottom: 10px;
+}
+
+.forecast-container {
+  height: 75%; /* Set height to 75% */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10px
+}
+
+.forecast-container .forecast-day {
+  width: 200px; /* Each forecast day takes 18% width */
+  padding-top: 10px;
+  height: 200px;;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 10px;
+  background-color: #f5f5f5;
+}
+
+.weather-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 10%; /* Adjust image size to be 25% smaller */
+}
+
+.weather-container img {
+  width: 100px;
+  height: 100px;
+}
