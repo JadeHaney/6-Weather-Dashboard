@@ -12,9 +12,12 @@ The application uses the OpenWeatherMap API to retrieve weather data. The API ke
 
 ## Screenshots
 
-[Add screenshots here if available]
+![Mockup](mockup.png)
 
 ## Live Demo
 
-[Provide a link to the live demo if deployed]
+Visit the site here: [Weather Dashboard Live Demo](https://jadehaney.github.io/6-Weather-Dashboard/)
 
+## Repository
+
+View the repo here: [Weather Dashboard Repository](https://github.com/JadeHaney/6-Weather-Dashboard)
